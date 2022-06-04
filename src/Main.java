@@ -13,9 +13,9 @@ public class Main {
                 int attempt = new Scanner(System.in).nextInt();
 
                 if (attempt < value && attempt >= 0) {
-                    System.out.println("Слишком мало");
+                    System.out.println("Слишком маленькое число");
                 } else if (attempt > value && attempt <= 100) {
-                    System.out.println("Слишком много");
+                    System.out.println("Слишком большое число");
                 } else if (attempt > 100) {
                     System.out.println("Число должно быть меньше ста");
                 } else if (attempt < 0) {
