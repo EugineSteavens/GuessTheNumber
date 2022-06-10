@@ -19,7 +19,7 @@ public class Main {
                 } else if (attempt > 100) {
                     System.out.println("Число должно быть меньше ста");
                 } else if (attempt < 0) {
-                    System.out.println("Число должно быть больше нуля");
+                    System.out.println("Число должно быть больше ноля");
                 } else {
                     System.out.println("Вы угадали. Давайте сыграем ещё!");
                     break;
